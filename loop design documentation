@@ -13,6 +13,7 @@ git commit -m "Challenge 3: Multiplication grid - nested loops for 2D data"
 # README
 git add README.md
 git commit -m "Add loop design documentation"
+git push
 
 # Push everything
 git branch -M main
