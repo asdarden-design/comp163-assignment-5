@@ -15,6 +15,3 @@ git add README.md
 git commit -m "Add loop design documentation"
 git push
 
-# Push everything
-git branch -M main
-git push -u origin main
