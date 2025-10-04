@@ -1,15 +1,12 @@
 # Anzino Darden
 # COMP163 - Assignment 5
-# Demonstrating while loops, for loops, and nested loops
 
-# -------------------------
 # Challenge 1: Collatz Sequence
-# -------------------------
 print("=== Challenge 1: Collatz Conjecture ===")
 current_number = int(input("Enter starting number: "))
 step_count = 0
 
-print("Enter starting number:", end=" ")
+print("Sequence:", end=" ")
 
 if current_number == 1:
     # Special case: already at 1
@@ -27,9 +24,7 @@ else:
 print()
 print("Steps:", step_count)
 
-# -------------------------
 # Challenge 2: Prime Number Checker
-# -------------------------
 print("\n=== Challenge 2: Prime Number Checker ===")
 n = int(input("Enter a number: "))
 
@@ -45,9 +40,7 @@ for d in range(2, n):   # renamed to d
 if is_prime:
     print(f"{n} is prime!")
 
-# -------------------------
 # Challenge 3: Multiplication Table Grid
-# -------------------------
 print("\n=== Challenge 3: Multiplication Table ===")
 print("Multiplication Table:")
 
@@ -61,6 +54,6 @@ print()
 for i in range(1, 11):   # outer loop renamed to i
     print(f"{i:2}", end="")
     for j in range(1, 11):
-        product = i * j
-        print(f"{product:4}", end="")
+        value = i * j
+        print(f"{value:4}", end="")
     print()
