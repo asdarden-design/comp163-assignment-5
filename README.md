@@ -102,3 +102,4 @@ Used chatgpt for concept clarification, formatting, placement of github command
 
 git add README.md
 git commit -m "Add loop design documentation"
+git push
