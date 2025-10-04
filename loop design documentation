@@ -1,0 +1,19 @@
+# Challenge 1
+git add Anzino_Darden_assignment_5.py
+git commit -m "Challenge 1: Collatz sequence - while loop for unknown iterations"
+
+# Challenge 2
+git add Anzino_Darden_assignment_5.py
+git commit -m "Challenge 2: Prime checker - for loop for known range"
+
+# Challenge 3
+git add Anzino_Darden_assignment_5.py
+git commit -m "Challenge 3: Multiplication grid - nested loops for 2D data"
+
+# README
+git add README.md
+git commit -m "Add loop design documentation"
+
+# Push everything
+git branch -M main
+git push -u origin main
