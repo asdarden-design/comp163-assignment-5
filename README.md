@@ -24,6 +24,9 @@ else:
 print()
 print("Steps:", step_count)
 
+git add anzino_darden_assignment.py
+git commit -m "Challenge 1: Collatz Conjecture - while loop for unknown iterations"
+
 # Challenge 2: Prime Number Checker
 print("\n=== Challenge 2: Prime Number Checker ===")
 n = int(input("Enter a number: "))
@@ -39,6 +42,9 @@ for d in range(2, n):   # renamed to d
 
 if is_prime:
     print(f"{n} is prime!")
+
+git add anzino_darden_assignment.py
+git commit -m "Challenge 2: Prime Number Checker - for loop for known ranges"
 
 # Challenge 3: Multiplication Table Grid
 print("\n=== Challenge 3: Multiplication Table ===")
@@ -57,3 +63,8 @@ for i in range(1, 11):   # outer loop renamed to i
         value = i * j
         print(f"{value:4}", end="")
     print()
+    
+git add anzino_darden_assignment.py
+git commit -m "Challenge 3: Multiplication Table Grid - nested loops for 2D data"
+
+Multiplication Table Grid
